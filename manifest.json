@@ -1,0 +1,19 @@
+﻿{
+  "name": "GoogleDirectLink",
+  "version": "1.0",
+  "description": "帮助访问由于某些原因而不能访问的Google搜索结果",
+  "background": { "scripts": ["background.js"] },
+  "browser_action" :
+  {
+    "default_icon" : "icon-19.png",
+    "default_title" : "非Google搜索结果页"
+  },
+  "permissions" : [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
+}
